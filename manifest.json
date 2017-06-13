@@ -1,0 +1,15 @@
+{
+    "short_name": "UwVoordeelpas",
+    "name": "Krijg 2 euro spaartegoed",
+    "version": 0,
+    "manifest_version": 2,
+    "icons": [
+      {
+        "src": "launcher-icon-3x.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone"
+}

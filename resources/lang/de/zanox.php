@@ -1,0 +1,28 @@
+<?php
+return [
+    'cars-motorbikes' => 'Auto\'s &amp; Motoren',
+    'internet-services' => 'Internet',
+    'office-school' => 'Familie',
+    'computer-game-consoles' => 'Games en spellen',
+    'Games en spellen' => 'Games en spellen',
+    'family-sports-games' => 'Sport',
+    'art-culture' => 'Kunst en lifestyle',
+    'news-information' => 'Nieuws en informatie',
+    'house-garden' => 'Huis en tuin',
+    'travel-flight' => 'Reizen en vakanties',
+    'cities-counrties-regions' => 'Steden, Landen & Regio',
+    'books-music-movies' => 'Boeken, Muziek en Films',
+    'insurance-finances' => 'Financiën & Verzekeren',
+    'health-care' => 'Sport, Gezondheid & Verzorging',
+    'food-beverages' => 'Eten & drinken',
+    'household-appliances' => 'Huishoudelijke apparaten',
+	'clothing-accessories' =>'Mode & Kleding',
+    'shopping-mail-order-shops' => 'Winkelen',
+    'cameras-camcorders' => 'Camera\'s',
+    'personal-homepage' => 'Persoonlijke internetdiensten',
+    'hifi-tv-video' => 'HiFi, TV & Video',
+    'tickets' => 'Tickets',
+    'cell-phone-fax' => 'Telecom en Mobiele Telefoons',
+    'gifts-flowers' => 'Bloemen',
+    'other' => 'Anders'
+];

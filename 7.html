@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="nl">
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>UWvoordeelpas</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width" />
+
+	<!-- Favicon-->
+	<link rel="shortcut icon" href="images/favicon.png" >
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="assets/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/ui-lightness/jquery-ui-1.9.2.custom.min.css">
+	<link rel="stylesheet" href="assets/font/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/libs/materialize/css/materialize.min.css" />
+	<link rel="stylesheet" href="assets/css/bootstrap.css" />
+	<link rel="stylesheet" href="assets/css/animate.min.css" />
+	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="assets/css/flexslider.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
+
+</head>
+
+<body>
+
+	<!-- Preloader --> 
+	<div id="preloader">
+		<div class="loader">
+			<svg class="circle-loader" height="50" width="50">
+				<circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="6" stroke-miterlimit="10" />
+			</svg>
+		</div>    
+	</div>
+
+	<!-- Main Container -->
+	<main id="app" class="main-section">
+		<!-- header navigation-->
+		<header id="navigation" class="root-sec white nav">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="nav-inner">
+							<nav class="primary-nav">
+								<div class="clearfix nav-wrapper">
+									<a href="#home" class="left brand-logo menu-smooth-scroll" data-section="#home"><img src="images/logo.png" alt="">
+									</a>
+									<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+									<ul class="right static-menu">
+
+										<li>
+											<a class="dropdown-button blog-submenu-init" id="language" href="#!" data-activates="dropdown1">
+												<img src="./images/flag.png" alt='flag' /> NL <i class="fa fa-angle-down" aria-hidden="true"></i>
+											</a>
+										</li>
+
+
+										<li class="search-form-li">
+											<a id="initSearchIcon" class=""><i class="mdi-action-search"></i> </a>
+											<div class="search-form-wrap hide">
+												<form action="#" class="">
+													<input type="search" class="search">
+													<button type="submit"><i class="mdi-action-search"></i>
+													</button>
+												</form>
+											</div>
+										</li>
+<!-- 										<li>
+											<a href="#" data-activates="dropdown2" class='button-collapse2'>
+												<i class="material-icons material-icons2">menu</i>
+											</a>
+										</li> -->
+									</ul>
+
+									<ul class="inline-menu side-nav" id="mobile-demo">
+
+										<!-- Mini Profile // only visible in Tab and Mobile -->
+										<li class="mobile-profile">
+											<div class="profile-inner">
+												<div class="pp-container">
+													<img src="images/logo.png" alt="">
+												</div>
+											</div>
+										</li><!-- mini profile end-->
+
+										<li><a href="#">Aanmelden</a>
+										</li>
+										<li><a href="#">Inloggen</a>
+										</li>
+										<li><a href="#" class='question'>Help <div class='question2'><img src="images/question.png" alt='question' /></div> <i class="fa fa-question-circle-o" aria-hidden="true"></i></a>
+										</li>
+
+									</ul>
+
+									<ul id="slide-out" class="side-nav2">
+										<li><a href="#"><i class="material-icons">assignment</i> Nieuws</a></li>
+										<li><a href="#"><i class="material-icons">monetization_on</i> Tegoed sparen</a></li>
+										<li><a href="#"><i class="material-icons">credit_card</i> Voordeelpas</a></li>
+										<li><a href="#"><i class="material-icons">help</i> Veelgestelde vragen</a></li>
+										<li><a href="#"><i class="material-icons">search</i> Zoeken</a></a></li>
+										<li><a href="#"><i class="material-icons">vpn_key</i> Aanmelden</a></li>
+										<li><a href="#"><i class="material-icons">exit_to_app</i> Inloggen</a></li>
+										<li><a href="#"><i class="material-icons">description</i> Hoe werkt het?</a></li>
+										<li><a href="#"><i class="material-icons">book</i> Voorwaarden</a></li>
+									</ul>
+									<a href="#" data-activates="slide-out" class="button-collapse2"><i class="material-icons material-icons2">menu</i></a>
+
+									<ul id="dropdown1" class="inline-menu submenu-ul dropdown-content">
+
+										<li><a href="#"><img src="./images/flag.png" alt='flag' /> NL</a>
+										</li> 
+										<li><a href="#"><img src="./images/flag.png" alt='flag' /> NL</a>
+										</li>
+
+									</ul>
+
+									<ul id="dropdown2" class="inline-menu submenu-ul dropdown-content">
+
+										<li><a href="#">1</a>
+										</li>
+										<li><a href="#">2</a>
+										</li>
+
+									</ul>
+
+								</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- .container end -->
+		</header>
+		<!-- #header  navigation end -->
+
+		<!-- Home Section start -->
+		<section id="home2" class="scroll-section root-sec grey lighten-5 home-wrap">
+			<div class="sec-overlay">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="home-inner">
+								<div class="center-align home-content">
+									<h1 class="home-title">Koop uw voordeelpas</h1>
+									<h2 class="home-subtitle" style="font-size: 24px">12 maanden van 15% tot wel 25% korting bij veel aangesloten restaurants!</h2>
+<h3 class="home-subtitle" style="font-size: 18px">U bent voor slechts €14,95 (incl. BTW) in het bezit van een UWvoordeelpas Plus account waarmee u 12 maanden lang van 15% tot wel 25% korting krijgt bij veel aangesloten restaurants!</h3>
+										<button class="button_action" style="background-color: #40bf46">Ja ik wil ook sparen!</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- .container end -->
+					<div class="section-call-to-area">
+						<div class="container">
+							<div class="row">
+								<a href="#activation" class="btn-floating btn-large button-middle call-to-about section-call-to-btn animated btn-up btn-hidden activation" data-section="#about">
+									<i class="mdi-navigation-expand-more"></i>
+								</a>
+							</div>
+						</div>
+						<!-- .container end -->
+					</div>
+				</div>
+			</section>
+			<!-- #home Section end -->
+
+			
+
+				<!-- How it works Section start -->
+				<section id="how_it_works">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-12">
+								<h1>Hoe werkt het?</h1>
+								<div class="col-sm-3 coll">
+									<img src="./images/how_it_works_11.png" alt='how_it_works_1' />
+									<p>Op de beginpagina ziet u<br>de filter "korting" hierin<br>zoekt u een restaurant<br>in de buurt.</p>
+								</div>
+								<div class="col-sm-3 coll">
+									<img src="./images/how_it_works_22.png" alt='how_it_works_2' />
+									<p>Reserveer via ons<br>systeem, het restaurant<br>ziet automatisch dat u<br>een UWvoordeelpas Plus<br>account heeft.</p>
+								</div>
+								<div class="col-sm-3 coll">
+									<img src="./images/how_it_works_33.png" alt='how_it_works_3' />
+									<p>Ontvang met maximaal<br>vier personen van 15%<br>tot wel 25% korting op<br>de gehele rekening.</p>
+								</div>
+								<div class="col-sm-3 coll">
+									<img src="./images/how_it_works_44.png" alt='how_it_works_4' />
+									<p>Voorwaarden kunnen<br>per horecagelegenheid<br>afwijken, kijk hiervoor<br>altijd onder het kopje<br>details!</p>
+								</div>
+							</div>
+							
+								<div class="col-sm-12">
+								<h4>Hoe werkt het:</h4>
+								<h6>Wij werken samen met ruim 1500 webshops, die u spaartegoed en de beste kortingscodes bieden. Vóórdat u een aankoop doet, klikt u op UWvoordeelpas op de webshop waar u gaat kopen. De prijzen van de producten, voorwaarden en overige punten blijven gelijk, alleen krijgt u extra spaartegoed bovenop de beste kortingscodes.</h6>
+							</div>
+							<div class="col-sm-12">
+								<h4>Wij bieden u dus:</h4>
+								<ul>
+									<li>- de beste kortingscodes, én</li>
+									<li>- spaartegoed dat u inlevert bij een bij ons aangesloten restaurant.</li>
+								</ul>
+								<h6>U ziet welke restaurants een tafel vrij hebben en kunt gewoon van de menukaart kiezen. En u zit NIET vast aan een bepaald menu en/of speciale regels.</h6>
+							</div>
+							<div class="col-sm-12">
+								<h4>U heeft dus altijd:</h4>
+								<ul>
+								<li>- voordeel op uw online aankopen, én</li>
+								<li>- u bouwt spaartegoed op om gratis/goedkoper uiteten te gaan.</li>
+								</ul>
+								<h6>Het is ook mogelijk om voor €14.95 een jaar lang PLUS member te worden. Als PLUS member krijgt u bij veel aangesloten restaurants tot 25% korting op de rekening, bovenop het spaartegoed.</h6>
+							</div>
+							<div class="col-sm-12">
+							<h2>Stap voor stap:</h2>
+								<h4>1: Aanmelden </h4>
+								<h6>Meldt uzelf aan en log in. Op de pagina “Tegoed sparen” zoekt u eventueel een kortingscode en klikt u op “bezoek webshop”. U gaat nu naar de webshop waar u de aankoop wilt gaan doen. Uw aankopen blijven ten alle tijden anoniem, en uw gegevens veilig bewaard.</h6>
+							</div>
+							<div class="col-sm-12">
+								<h4>2: Transactie keuren</h4>
+								<h6>U ontvangt een mailtje dat uw aankoop in behandeling is. Op het moment dat de webshop uw transactie goedkeurt wordt het tegoed direct bijgeschreven op uw persoonlijke account. Het is belangrijk dat u direct na het klikken de aankoop in de webshop doet omdat anders de vergoeding wellicht niet goed gemeten wordt. Vele websites werken namelijk met meetcodes die de onze kunnen verstoren. En let ook op het feit dat transacties vaak pas na 14 dagen betaald worden aangezien iedere consument zonder opgave van reden binnen 14 dagen alles kan retourneren.</h6>
+							</div>
+							<div class="col-sm-12">
+								<h4>3: Reserveren</h4>
+								<h6>U zoekt bovenin de website of op de startpagina een restaurant en reserveert een tafel. Tijdens de reservering geeft u aan welke dag/tijd en met hoeveel personen u wilt gaan en hoeveel euro spaartegoed (max €150.-) u wilt inzetten voor dit avondje uit. </h6>
+							</div>
+							<div class="col-sm-12">
+								<h4>4: Geniet van uw avondje uit of dagje weg  </h4>
+								<h6>U gaat naar het restaurant waar u gereserveerd. Dit restaurant weet hoeveel spaartegoed u bij uw bezoek gaat inleveren, dit bedrag wordt in mindering gebracht op uw rekening.
+
+Wanneer u op deze pagina een digitale UWvoordeelpas barcode gekocht heeft, krijgt u ook nog eens (bovenop uw spaartegoed) tot 25% korting bij vele aangesloten restaurants.</h6>
+							</div>
+							<div class="col-sm-12">
+								<h4>5: Wij betalen uw rekening: </h4>
+								<h6>Dus stel u bent in het bezit van een UWvoordeelpas barcode en eet en drinkt met 2 personen voor €50.- dan ontvangt u tot wel €12.50 korting, maar heeft u door het doen van online aankopen €37.50 gespaard dan betaalt u uw rekening met uw gekregen tegoed en eet u volledig gratis! Naast al deze voordelen heeft u op voorhand dus ook nog geprofiteerd van onze kortingscodes waardoor u direct bij uw aankoop al voordeel heeft gehad!</h6>
+							</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- How it works Section end -->
+
+				
+
+
+	<!-- Footer Section end -->
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-footer">
+					<span class='line'></span>
+					<div class="col-sm-3">
+						<ul>
+							<li><h3><i class="fa fa-caret-down" aria-hidden="true"></i>  Leden</h3></li>
+							<li> <a href="">How werk het?</a></li>
+							<li> <a href="">Lid worden</a></li>
+							<li> <a href="">Tegoed sparen</a></li>
+							<li> <a href="">Veelgestelde wragen</a></li>
+
+						</ul>
+						<div class='clear'></div>
+					</div>
+					<div class="col-sm-3">
+						<ul>
+							<li><h3><i class="fa fa-caret-down" aria-hidden="true"></i>  Leden</h3></li>
+							<li> <a href="">How werk het?</a></li>
+							<li> <a href="">Lid worden</a></li>
+							<li> <a href="">Tegoed sparen</a></li>
+							<li> <a href="">Veelgestelde wragen</a></li>
+
+						</ul>
+						<div class='clear'></div>
+					</div>
+					<div class="col-sm-3">
+						<ul>
+							<li><h3><i class="fa fa-caret-down" aria-hidden="true"></i>  Leden</h3></li>
+							<li> <a href="">How werk het?</a></li>
+							<li> <a href="">Lid worden</a></li>
+							<li> <a href="">Tegoed sparen</a></li>
+							<li> <a href="">Veelgestelde wragen</a></li>
+
+						</ul>
+						<div class='clear'></div>
+					</div>
+					<div class="col-sm-3">
+						<ul>
+							<li><h3><i class="fa fa-caret-down" aria-hidden="true"></i>  Leden</h3></li>
+							<li> <a href="">How werk het?</a></li>
+							<li> <a href="">Lid worden</a></li>
+							<li> <a href="">Tegoed sparen</a></li>
+							<li> <a href="">Veelgestelde wragen</a></li>
+
+						</ul>
+						<div class='clear'></div>
+					</div>
+					<div class='clear'></div>
+				</div>
+			</div>
+		</div>
+		<!-- ./container end-->
+	</footer>
+	<!-- #footer end -->
+
+</main>
+<!-- Main Container end-->
+
+
+<!-- JavaScripts -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="assets/js/detectmobilebrowser.js"></script>
+<script type="text/javascript" src="assets/js/jquery-ui-1.9.2.custom.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/waypoints.js"></script>
+<script src="assets/libs/materialize/js/materialize.min.js"></script>
+<script src="assets/js/common.js"></script>
+<script src="assets/js/jquery.flexslider.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+
+</html>

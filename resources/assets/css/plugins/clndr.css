@@ -1,0 +1,52 @@
+.clndr {
+  color: #000;
+}
+
+.clndr .header-day {
+  width: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.clndr .last-month {
+  visibility: hidden;
+}
+
+.clndr .day.event {
+  background: #00AA00;
+  cursor: pointer;
+}
+
+.clndr table  {
+  width: 100%;
+}
+
+.clndr .month {
+  display: none;
+}
+
+.clndr .day {
+  background: #DD0000;
+  color: #FFF;
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border: 1px solid #ccc;
+}
+
+.clndr .day.today.event {
+ background: rgb(94, 128, 178);
+}
+
+.clndr .day.event.active {
+ background: rgb(94, 128, 178);
+}
+
+.clndr .day.next-month {
+  background: none; 
+  display: none;
+}
+
+.clndr .clndr-control-button {
+  display: none;
+}
